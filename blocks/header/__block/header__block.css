@@ -1,6 +1,7 @@
-.page {
-    background-color: #2A2C2F;
+.header__block {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 928px;
+    margin: auto;
 }
