@@ -20,15 +20,17 @@
 @import url(../blocks/header/__lang-elections/header__lang-elections.css);
 @import url(../blocks/header/__lang-selection/header__lang-selection.css);
 
-
- @import url(../blocks/header/__lang-selection/_active/header__lang-selection_active.css);
-
-
-/*header/\*/
+    @import url(../blocks/header/__lang-selection/_active/header__lang-selection_active.css);
 
 
 
-/*travel\/*/   
+
+
+  /*header/\*/
+
+
+
+  /*travel\/*/   
 
 @import url(../blocks/travel/travel.css);
 @import url(../blocks/travel/__title/travel__title.css);
@@ -71,13 +73,13 @@
 @import url(../blocks/place/__image/place__image.css);
 
 
- @import url(../blocks/place/__paragraph/place__paragraph.css);
+    @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 
-/*place/\*/
+  /*place/\*/
 
 
-/*cover\/*/   
+  /*cover\/*/   
    
 
 @import url(../blocks/cover/cover.css);
