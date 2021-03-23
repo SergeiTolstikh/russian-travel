@@ -18,6 +18,6 @@
 
 @media screen and (max-width: 499px) {
     .place__url {  
-        padding-left: calc(16px + (19.1964 - 16) * (100vw - 320px) / (179));
+        padding-left: calc(16px + (19.1964 - 16) * ((100vw - 320px) / 179));
     }
 }
