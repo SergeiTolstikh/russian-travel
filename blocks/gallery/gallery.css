@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
-        padding: 0 calc(24px + (48 - 24) * ((100vw - 768px) / 256));   
+        padding: 0 calc(24px + (48 - 24) * ((100vw - 768px) / 256));
         grid-gap: 14px;
     }
 }
