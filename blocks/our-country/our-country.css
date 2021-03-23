@@ -8,6 +8,8 @@
 @media screen and (max-width: 1280px) {
     .our-country {
         max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / 256)); 
+        margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));   
+        margin-right: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
     }
 }
 
