@@ -1,0 +1,23 @@
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 984px;
+    margin: auto;
+    padding-top: 56px;
+}
+
+@media screen and (max-width: 1280px) {
+    .travel {
+        padding-top: calc(48px + (56 - 48) * ((100vw - 1024px) / 256));
+        padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
+        padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .travel {
+        padding-top: 48px;
+    }
+}

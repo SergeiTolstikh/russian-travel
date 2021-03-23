@@ -1,8 +1,26 @@
 .cards {
     margin: 0;
-    padding-left: 48px;
     padding-top: 33px;
+    padding-left: 0;
     padding-bottom: 92px;
     list-style-type: none;
     max-width: 690px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards {
+        padding-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / 256));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        padding-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / 448));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cards {
+        padding-top: 34px;
+    }
 }

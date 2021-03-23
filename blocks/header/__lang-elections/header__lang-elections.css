@@ -1,0 +1,23 @@
+.header__lang-elections {
+  list-style-type: none;
+  max-width: 77px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 46px 48px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__lang-elections {
+    padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / 256));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-elections {
+    padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / 448));
+    padding-top: calc(30px + (46 - 30) * ((100vw - 320px) / 448));
+    max-width: calc(62px + (77 - 62) * ((100vw - 320px) / 448));
+  }
+}

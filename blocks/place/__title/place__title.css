@@ -1,0 +1,36 @@
+.place__title {
+    max-width: 100%;
+    font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
+    font-style:normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFF;
+    margin: 0;
+    padding-right: 16px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: calc(42px + (72 - 42) * ((100vw - 768px) / 256));
+        line-height: calc(46px + (76 - 46) * ((100vw - 768px) / 256));
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: calc(32px + (42 - 32) * ((100vw - 320px) / 448));
+        line-height: calc(35px + (46 - 35) * ((100vw - 320px) / 448));
+        padding-right: calc(0px + (16 - 0) * ((100vw - 500px) / 268));
+        /*padding-left: calc(0px - (16 - 0) * ((100vw - 768px) / 448));*/
+        
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .place__title {
+        padding-left: calc(16px + (19.1964 - 16) * ((100vw - 320px) / 179));
+    }
+}

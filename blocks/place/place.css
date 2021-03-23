@@ -1,0 +1,64 @@
+.place {
+    margin: 0 auto;
+    max-width: 984px;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+    grid-gap: 48px 40px;
+}
+
+.place:first-of-type {
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 1280px) {
+    .place {
+        padding-top: 80px;
+        padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
+        padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
+        grid-template-columns: calc(440px + (460 - 440) * ((100vw - 1024px) / 256)) 1fr;
+        grid-gap: 48px calc(32px + (40 - 32) * ((100vw - 1024px) / 256));
+    }
+    .place:first-of-type {
+        padding-top: 92px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        padding-top: calc(73px + (80 - 73) * ((100vw - 768px) / 256));
+        padding-left: calc(24px + (48 - 24) * ((100vw - 768px) / 256));
+        padding-right: calc(24px + (48 - 24) * ((100vw - 768px) / 256));
+        grid-template-columns: calc(340px + (440 - 340) * ((100vw - 768px) / 256)) 1fr;
+        grid-gap: 48px calc(28px + (32 - 28) * ((100vw - 768px) / 256));
+    }
+    .place:first-of-type {
+        padding-top: calc(88px + (92 - 88) * ((100vw - 768px) / 256));
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .place {
+        padding-top: calc(50px + (73 - 50) * ((100vw - 320px) / 448));
+        padding-left: calc(17.8929px + (24 - 17.8929) * ((100vw - 426px) / 342));
+        padding-right: calc(17.8929px + (24 - 17.8929) * ((100vw - 426px) / 342));
+        grid-gap: calc(32px + (48 - 32) * ((100vw - 320px) / 448)) 28px;
+        grid-template-columns: calc(196.5px + (340 - 196.5) * ((100vw - 500px) / 268)) 1fr;
+    }
+    .place:first-of-type {
+        padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / 448));
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .place {
+         grid-template-columns: 1fr;
+         padding-left: 0;
+         padding-right: 0;
+         padding-top: 50px;
+    }
+    .place:first-of-type {
+        padding-top: 64px;
+    }
+}

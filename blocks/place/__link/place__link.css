@@ -1,0 +1,23 @@
+.place__link {
+    font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFF;
+    max-width: 100%;
+    padding-top: 12px;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 499px) {
+    .place__link {  
+        padding-left: calc(16px + (19.1964 - 16) * ((100vw - 320px) / 179));
+    }
+}

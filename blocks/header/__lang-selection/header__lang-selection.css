@@ -1,0 +1,22 @@
+.header__lang-selection {
+    font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header__lang-selection:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-selection {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px) / 448));
+        line-height: calc(20px + (28 - 20) * ((100vw - 320px) / 448));
+    }
+}
