@@ -1,3 +1,5 @@
+@import url(../cards/__item/card__item.css);
+
 .cards {
     margin: 0;
     padding-top: 33px;

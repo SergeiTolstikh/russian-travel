@@ -1,3 +1,7 @@
+@import url(../cover/__overlay/cover__overlay.css);
+@import url(../cover/__title/cover__title.css);
+@import url(../cover/__subtitle/cover__subtitle.css);
+
 .cover {
     margin: 0 auto;
     padding-top: 92px;

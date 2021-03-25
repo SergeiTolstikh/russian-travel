@@ -1,3 +1,6 @@
+@import url(../our-country/__title/our-country__title.css);
+@import url(../our-country/__subtitle/our-country__subtitle.css);
+
 .our-country {
     display: grid;
     grid-template-columns: 1fr;
