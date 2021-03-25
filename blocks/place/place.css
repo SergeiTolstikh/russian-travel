@@ -1,9 +1,9 @@
 .place {
     margin: 0 auto;
     max-width: 984px;
-    padding-top: 80px;
+    padding: 80px 48px 0;
     display: grid;
-    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+    grid-template-columns: 460px 1fr;
     grid-gap: 48px 40px;
 }
 
@@ -13,9 +13,6 @@
 
 @media screen and (max-width: 1280px) {
     .place {
-        padding-top: 80px;
-        padding-left: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
-        padding-right: calc(48px + (148 - 48) * ((100vw - 1024px) / 256));
         grid-template-columns: calc(440px + (460 - 440) * ((100vw - 1024px) / 256)) 1fr;
         grid-gap: 48px calc(32px + (40 - 32) * ((100vw - 1024px) / 256));
     }
@@ -41,17 +38,17 @@
 @media screen and (max-width: 768px) {
     .place {
         padding-top: calc(50px + (73 - 50) * ((100vw - 320px) / 448));
-        padding-left: calc(17.8929px + (24 - 17.8929) * ((100vw - 426px) / 342));
-        padding-right: calc(17.8929px + (24 - 17.8929) * ((100vw - 426px) / 342));
+        padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / 448));
+        padding-right: calc(16px + (24 - 16) * ((100vw - 320px) / 448));
         grid-gap: calc(32px + (48 - 32) * ((100vw - 320px) / 448)) 28px;
-        grid-template-columns: calc(196.5px + (340 - 196.5) * ((100vw - 500px) / 268)) 1fr;
+        grid-template-columns: calc(196.5px + (340 - 196.5) * ((100vw - 426px) / 342)) 1fr;
     }
     .place:first-of-type {
         padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / 448));
     }
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 425px) {
     .place {
          grid-template-columns: 1fr;
          padding-left: 0;

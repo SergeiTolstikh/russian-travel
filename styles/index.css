@@ -1,15 +1,10 @@
 @import url(../vendor/normalize.css);
 
-@import url(../fonts/inter.css);
+@import url(../fonts/fonts.css);
 
-/*body\/*/
-
-@import url(../blocks/body/body.css);
 
 /*page\/*/
 @import url(../blocks/page/page.css);
-
-
 
 /*header\/*/
 
@@ -19,7 +14,6 @@
 
 @import url(../blocks/header/__lang-elections/header__lang-elections.css);
 @import url(../blocks/header/__lang-selection/header__lang-selection.css);
-
     @import url(../blocks/header/__lang-selection/_active/header__lang-selection_active.css);
 
 

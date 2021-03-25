@@ -2,10 +2,14 @@
   list-style-type: none;
   max-width: 77px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   margin: 0;
   padding: 46px 48px 0px 0px;
+
+  display: flex;
+  justify-content: space-between;
+  
+  grid-column: -1/-2;
+  justify-self: end;
 }
 
 @media screen and (max-width: 1024px) {

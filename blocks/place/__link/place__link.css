@@ -16,8 +16,16 @@
 }
 
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 768px) {
+    .place__link {
+        font-size: calc(14px + (18 - 16) * ((100vw - 426px) / 342));
+        line-height: calc(18px + (22 - 18) * ((100vw - 426px) / 342));
+    }
+}
+
+@media screen and (max-width: 425px) {
     .place__link {  
-        padding-left: calc(16px + (19.1964 - 16) * ((100vw - 320px) / 179));
+        padding-left: calc(16px + (17.875 - 16) * ((100vw - 320px) / 105));
+        font-size: 18px;
     }
 }

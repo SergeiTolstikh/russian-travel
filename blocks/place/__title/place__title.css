@@ -7,7 +7,7 @@
     line-height: 76px;
     color: #FFF;
     margin: 0;
-    padding-right: 16px;
+    padding-right: 12px;
 }
 
 
@@ -23,14 +23,13 @@
     .place__title {
         font-size: calc(32px + (42 - 32) * ((100vw - 320px) / 448));
         line-height: calc(35px + (46 - 35) * ((100vw - 320px) / 448));
-        padding-right: calc(0px + (16 - 0) * ((100vw - 500px) / 268));
-        /*padding-left: calc(0px - (16 - 0) * ((100vw - 768px) / 448));*/
+        padding-right: calc(0px + (12 - 0) * ((100vw - 426px) / 342));
         
     }
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 425px) {
     .place__title {
-        padding-left: calc(16px + (19.1964 - 16) * ((100vw - 320px) / 179));
+        padding-left: calc(16px + (17.875 - 16) * ((100vw - 320px) / 105));
     }
 }
