@@ -1,6 +1,6 @@
 @import url(../cards/__item/card__item.css);
 
-.cards {
+.card {
     margin: 0;
     padding-top: 33px;
     padding-left: 0;
@@ -10,19 +10,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .cards {
+    .card {
         padding-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / 256));
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cards {
+    .card {
         padding-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / 448));
     }
 }
 
 @media screen and (max-width: 320px) {
-    .cards {
+    .card {
         padding-top: 34px;
     }
 }
