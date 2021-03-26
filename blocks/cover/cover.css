@@ -1,7 +1,3 @@
-@import url(../cover/__overlay/cover__overlay.css);
-@import url(../cover/__title/cover__title.css);
-@import url(../cover/__subtitle/cover__subtitle.css);
-
 .cover {
     margin: 0 auto;
     padding-top: 92px;
@@ -12,13 +8,11 @@
     position: relative;
 }
 
-
 @media screen and (max-width: 1024px) {
     .cover {
         padding-top: calc(65px + (92 - 65) * ((100vw - 768px) / 256));
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .cover {

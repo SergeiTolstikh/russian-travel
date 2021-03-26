@@ -1,6 +1,6 @@
-.travel__text {
+.figure__text {
     color: #FFF;
-    padding-top: 8px;
+    padding-top: 4px;
     margin: 0;
     font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
     font-style: normal;
@@ -11,16 +11,14 @@
     text-transform: uppercase;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .travel__text {
+    .figure__text {
         padding-left: calc(0px + (0 - 24) * ((100vw - 1024px) / 256));
     }
 }
 
-
 @media screen and (max-width: 768px) {
-    .travel__text {
+    .figure__text {
         padding-left: calc(16px + (24 - 16) * ((100vw - 320px) / 448));
     }
 }

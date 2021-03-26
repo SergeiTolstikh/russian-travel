@@ -11,7 +11,6 @@
     color: #FFF;
 }
 
-
 @media screen and (max-width: 1024px) {
     .our-country__title {
         max-width: calc(690px + (720 - 690) * ((100vw - 768px) / 256));

@@ -15,7 +15,6 @@
     transition: 0.3s;
 }
 
-
 @media screen and (max-width: 768px) {
     .place__link {
         font-size: calc(14px + (18 - 16) * ((100vw - 426px) / 342));

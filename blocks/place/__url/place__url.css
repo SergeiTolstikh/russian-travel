@@ -13,9 +13,6 @@
     margin: 0;
 }
 
-
-
-
 @media screen and (max-width: 425px) {
     .place__url {  
         padding-left: calc(16px + (17.875 - 16) * ((100vw - 320px) / 105));

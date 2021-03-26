@@ -1,11 +1,3 @@
-@import url(../place/__title/place__title.css);
-@import url(../place/__web/place__web.css);
-@import url(../place/__url/place__url.css);
-@import url(../place/__link/place__link.css);
-@import url(../place/__image/place__image.css);
-@import url(../place/__paragraphs/paragraphs.css);
-@import url(../place/__paragraph/place__paragraph.css);
-
 .place {
     margin: 0 auto;
     max-width: 984px;
@@ -24,9 +16,6 @@
         grid-template-columns: calc(440px + (460 - 440) * ((100vw - 1024px) / 256)) 1fr;
         grid-gap: 48px calc(32px + (40 - 32) * ((100vw - 1024px) / 256));
     }
-    .place:first-of-type {
-        padding-top: 92px;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -41,7 +30,6 @@
         padding-top: calc(88px + (92 - 88) * ((100vw - 768px) / 256));
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .place {

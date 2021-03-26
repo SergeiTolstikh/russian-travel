@@ -6,7 +6,6 @@
     fill: none;
 }
 
-
 @media screen and (max-width: 1024px) {
     .header__logo {
         margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / 256));

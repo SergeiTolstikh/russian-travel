@@ -13,19 +13,16 @@
     margin: 0 auto;
 }
 
-
 @media screen and (max-width: 1280px) {
     .travel__subtitle {
         padding-bottom: calc(56px + (64 - 56) * ((100vw - 1024px) / 256));
-}
-
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .travel__subtitle {
         padding-bottom: 56px;
     }
-
 }  
 
 @media screen and (max-width: 768px) {
