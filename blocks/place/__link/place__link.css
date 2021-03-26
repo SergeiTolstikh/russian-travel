@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
     .place__link {
-        font-size: calc(14px + (18 - 16) * ((100vw - 426px) / 342));
+        font-size: calc(14px + (18 - 14) * ((100vw - 426px) / 342));
         line-height: calc(18px + (22 - 18) * ((100vw - 426px) / 342));
     }
 }
